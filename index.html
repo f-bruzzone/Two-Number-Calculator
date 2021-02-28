@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Two Number Calculator</title>
+</head>
+<body>
+    <div class="contianer">
+        <form class="form" action="#" onsubmit="return false">
+            <div class="num-inputs">
+                <div>
+                    <label for="num-one">First Number</label>
+                    <input id="num-one" type="number" value="" autofocus>
+                </div>
+
+                <div>
+                    <label for="num-two">Second Number</label>
+                    <input id="num-two" value="" type="number">
+                </div>
+            </div>
+            <div class="radio-inputs">
+                <div>
+                    <input class="radio-input" id="add" type="radio" name="operators" value="add" checked>
+                    <label for="add">Add</label>
+                </div>
+
+                <div>
+                    <input class="radio-input" id="subtract" type="radio" name="operators" value="subtract">
+                    <label for="subtract">Subtract</label>
+                </div>
+
+                <div>
+                    <input class="radio-input" id="multiply" type="radio" name="operators" value="multiply">
+                    <label for="multiply">Multiply</label>
+                </div>
+                
+                <div>
+                    <input class="radio-input" id="divide" type="radio" name="operators" value="divide">
+                    <label for="divide">Divide</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <div>
+                    <button id="submit-btn" type="submit">=</button>
+                </div>
+                <div>
+                    <button id="reset-btn" type="reset">Clear</button>
+                </div>
+            </div>
+        </form>
+        <h3 id="text">Results will update here.</h3>
+    </div>
+    
+    <script src="./index.js"></script>i
+</body>
+</html>

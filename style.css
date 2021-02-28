@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contianer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.num-inputs {
+    display: flex;
+}
+.num-inputs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.num-inputs div input {
+    padding: 0.2rem;
+}
+.radio-inputs {
+    display: flex;
+    justify-content: center;
+}
+.radio-inputs div {
+    padding: 1rem 1rem;
+}
+input[type="radio"]:checked+label {
+    font-weight: bold; 
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+.buttons div {
+    padding: 0 0.5rem;
+}
+.buttons button {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    box-shadow: 2px 2px rgb(66, 66, 66);
+}
+#submit-btn {
+    background-color: rgb(27, 137, 228);
+    color: white;
+    border-style: none;
+}
+#submit-btn:hover {
+    background-color: rgb(97, 174, 236);
+}
+#reset-btn {
+    background-color: lightgrey;
+    border-style: none;
+}
+#reset-btn:hover {
+    background-color: rgb(228, 228, 228);
+}
